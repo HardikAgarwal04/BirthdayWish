@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Gloria+Hallelujah&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-image: url(/Images/bg.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 0px 10px;
+}
+
+.card-img img {
+    width: 300px;
+    border-radius: 4px;
+}
+
+.card-content {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.card-content p {
+    font-family: "Borel", serif;
+    font-size: 26px;
+    font-weight: 600px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card-1 {
+    animation: rotate1 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-5deg);
+    animation-delay: 1s;
+    z-index: 20;
+}
+
+@keyframes rotate1 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0%;
+        transform: translate(-50%, -50%) rotateZ(-40deg) scale(0.5);
+    }
+}
+
+.card-2 {
+    animation: rotate2 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(15deg);
+    animation-delay: 3s;
+    z-index: 19;
+}
+
+@keyframes rotate2 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 0%;
+        left: 100%;
+        transform: translate(-50%, -50%) rotateZ(30deg) scale(0.5);
+    }
+}
+
+.card-3 {
+    animation: rotate3 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-15deg);
+    animation-delay: 5s;
+    z-index: 18;
+}
+
+@keyframes rotate3 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 100%;
+        left: 100%;
+        transform: translate(-50%, -50%) rotateZ(30deg) scale(0.5);
+    }
+}
+
+.card-4 {
+    animation: rotate4 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(15deg);
+    animation-delay: 7s;
+    z-index: 17;
+}
+
+@keyframes rotate4 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 100%;
+        left: 5%;
+        transform: translate(-50%, -50%) rotateZ(-30deg) scale(0.5);
+    }
+}
+
+.card-5 {
+    animation: rotate5 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-1deg);
+    animation-delay: 9s;
+    z-index: 16;
+
+}
+
+@keyframes rotate5 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 25%;
+        left: -15%;
+        transform: translate(-50%, -50%) rotateZ(15deg) scale(0.5);
+    }
+}
+
+.card-6 {
+    animation: rotate6 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(10deg);
+    animation-delay: 11s;
+    z-index: 15;
+}
+
+@keyframes rotate6 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 25%;
+        left: 111%;
+        transform: translate(-50%, -50%) rotateZ(-5deg) scale(0.5);
+    }
+}
+
+.card-7 {
+    animation: rotate7 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-20deg);
+    animation-delay: 13s;
+    z-index: 14;
+}
+
+@keyframes rotate7 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 80%;
+        left: -10%;
+        transform: translate(-50%, -50%) rotateZ(12deg) scale(0.5);
+    }
+}
+
+.card-8 {
+    animation: rotate8 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(25deg);
+    animation-delay: 15s;
+    z-index: 13;
+}
+
+@keyframes rotate8 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 73%;
+        left: 113%;
+        transform: translate(-50%, -50%) rotateZ(8deg) scale(0.5);
+    }
+}
+
+.card-9 {
+    animation: rotate9 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-30deg);
+    animation-delay: 17s;
+    z-index: 12;
+}
+
+@keyframes rotate9 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: -7%;
+        left: 52%;
+        transform: translate(-50%, -50%) rotateZ(5deg) scale(0.5);
+    }
+}
+
+.card-10 {
+    animation: rotate10 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(10deg);
+    animation-delay: 19s;
+    z-index: 11;
+}
+
+@keyframes rotate10 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 105%;
+        left: 48%;
+        transform: translate(-50%, -50%) rotateZ(99deg) scale(0.5);
+    }
+}
+
+.card-11 {
+    animation: rotate11 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-23deg);
+    animation-delay: 21s;
+    z-index: 10;
+}
+
+@keyframes rotate11 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 50%;
+        left: -16%;
+        transform: translate(-50%, -50%) rotateZ(0deg) scale(0.5);
+    }
+}
+.card-12 {
+    animation: rotate12 1.5s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    transform: translate(-50%, -50%) rotateZ(-23deg);
+    animation-delay: 23s;
+    z-index: 9;
+}
+
+@keyframes rotate12 {
+    0% {
+        top: 50%;
+        left: 50%;
+    }
+
+    100% {
+        top: 50%;
+        left: 116%;
+        transform: translate(-50%, -50%) rotateZ(-11deg) scale(0.5);
+    }
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    transform: scale(0);
+    animation: text 0.4s cubic-bezier(0.6, 0, 0.1, 1) forwards;
+    animation-delay: 24.5s;
+
+}
+.text h1{
+    font-family: "Gloria Hallelujah", serif;
+    font-size: 28px;
+    font-weight: 400px;
+    color: rgb(24,24,24);
+    text-align: center;
+    animation: text2 1.5s  infinite;
+    animation-delay: 0.2s;
+}
+.text h2{
+    font-family: "Gloria Hallelujah", serif;
+    font-size: 74px;
+    font-weight: 600;
+    color:#007791;
+    margin-top: -30px;
+    animation: text2 1.5s  infinite;
+    animation-delay: 0.2s;
+}
+@keyframes text{
+    0%{
+        transform: scale(0) rotateZ(0deg);
+    }
+    100%{
+        transform: scale(1) rotateZ(-10deg);
+    }
+}
+@keyframes text2{
+    0% {
+        transform: scale(1)
+    }
+
+    25% {
+        transform: scale(1.25)
+    }
+
+    45% {
+        transform: scale(1.5)
+    }
+}
